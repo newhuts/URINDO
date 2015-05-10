@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">KRS URINDO</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="abouts">About Me</string>
+    <string name="setting">Setting</string>
+    <string name="action_settings">Log out</string>
+    
+    <string name="desc"></string>
+    <string name="id">NPM</string>
+    <string name="npm">NPM :</string>
+    <string name="nama">Nama :</string>
+    <string name="smt">Semester :</string>
+    <string name="krsambil">KRS yang diambil :</string>
+    <string name="status">Status :</string>
+    <string name="pass">Password</string>
+    <string name="login">Login</string>
+    <string name="infomhs">Informasi Mahasiswa</string>
+    <string name="infokrs">Informasi KRS</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/user</item>
+        <item>@drawable/isi</item>
+        <item>@drawable/lihat</item>
+        <item>@drawable/transkip</item>
+        <item>@drawable/accept</item>
+        <item>@drawable/input</item>
+    </array>
+    <string-array name="nilaiarray">
+        <item >4</item>
+        <item >3</item>
+        <item >2</item>
+        <item >1</item>
+        <item >0</item>
+    </string-array>
+    
+    
+    
+    
+    
+    
+    
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="novi.krsurindo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.RateItTheme" >
+        <activity
+            android:name="novi.krsurindo.DashBoard"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="Login"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+		</activity>
+		<activity
+            android:name=".admin.DetailKRS"
+            android:label="Detail KRS" >
+		</activity>
+		<activity
+            android:name=".mahasiswa.DetailKHS"
+            android:label="Detail KHS" >
+		</activity>
+		<activity
+            android:name=".mahasiswa.DetailMhsKrs"
+            android:label="Detail KRS" >
+		</activity>
+		<activity
+            android:name=".admin.InputKHS"
+            android:label="Input KHS" >
+		</activity>
+		<activity
+            android:name=".AboutMe"
+            android:label="About App" >
+		</activity>
+		<activity
+            android:name=".Setting"
+            android:label="Ubah Password" >
+		</activity>
+    </application>
+<uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+</manifest>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <AbsoluteLayout
+        android:id="@+id/ds"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" >
+
+        <FrameLayout
+            android:id="@+id/d"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <FrameLayout
+                android:layout_width="150dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="right" >
+
+                <FrameLayout
+                    android:layout_width="50dp"
+                    android:layout_height="fill_parent"
+                    android:background="@color/Orange80" >
+
+                    <TextView
+                        android:id="@+id/skskhs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="3"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="50dp"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:background="@color/torquoise80" >
+
+                    <TextView
+                        android:id="@+id/khsnilai"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="A"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="50dp"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="right"
+                    android:background="@color/alizarin80" >
+
+                    <TextView
+                        android:id="@+id/khsakhir"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="9"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </FrameLayout>
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/kdkhs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="2323213"
+                android:textColor="@color/DimGray"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/mkkhs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="150dp"
+                android:layout_marginTop="10dp"
+                android:paddingRight="5dp"
+                android:text="Pendidikan Pancasila &amp; Kewarganegaraan" />
+
+            <TextView
+                android:id="@+id/idmkhs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+        </FrameLayout>
+
+    </AbsoluteLayout>
+
+</LinearLayout>

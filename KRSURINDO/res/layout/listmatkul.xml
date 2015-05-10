@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <AbsoluteLayout
+        android:id="@+id/AbsoluteLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" >
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="fill_parent"
+            android:background="@color/Orange" >
+
+            <TextView
+                android:id="@+id/idmk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/d"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <TextView
+                android:id="@+id/kdmk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:text="2323213"
+                android:textColor="@color/DimGray"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/sksmk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginLeft="70dp"
+                android:layout_marginRight="10dp"
+                android:text="1" />
+
+            <TextView
+                android:id="@+id/mkmk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="70dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:text="asdasd asdasd asdasd asdasda asdasdas adsdasda" />
+
+        </FrameLayout>
+    </AbsoluteLayout>
+
+</LinearLayout>
