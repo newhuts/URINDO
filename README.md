@@ -1,5 +1,5 @@
 # URINDO
-[projek] aplikasi akademik urindo
+[projek-skripsi] aplikasi akademik urindo
 
 aplikasi ini untuk hanya untuk skripsi
 
